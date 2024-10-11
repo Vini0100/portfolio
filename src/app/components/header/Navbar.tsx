@@ -15,7 +15,7 @@ export const Navbar = () => {
       />
       {Navbar && (
         <div className="p-4 mr-1 mt-1 right-0 w-40 bg-black rounded absolute flex justify-end text-end">
-          <ul className="text-white flex flex-col gap-6 text-xl font-semibold font-soraCust">
+          <ul className="text-white flex flex-col gap-6 text-xl font-semibold font-soraCost">
             <ItemsNavbar />
           </ul>
         </div>
