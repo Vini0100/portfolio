@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        soraCust: ["Sora", "sans-serif"],
+        soraCost: ["Sora", "sans-serif"],
       },
     },
   },

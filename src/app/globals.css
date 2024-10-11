@@ -4,6 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.pxCustom {
-  @apply px-4 md:px-20;
+.layoutCustom {
+  @apply px-4 md:px-20 py-10 md:py-[3.75rem];
 }
