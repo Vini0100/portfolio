@@ -7,3 +7,22 @@
 .layoutCustom {
   @apply px-4 md:px-20 py-10 md:py-[3.75rem];
 }
+
+.textSkill {
+  @apply text-xl font-bold font-soraCost;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease forwards;
+}

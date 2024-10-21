@@ -5,7 +5,7 @@ import { HeaderNavbar } from "./HeaderNavbar";
 
 export const Header = () => {
   return (
-    <header className="p-4 md:px-20 md:py-6 relative">
+    <header className="p-4 md:px-20 md:py-6 relative border border-blue-500">
       <div className="flex justify-between items-center md:px-8">
         <div className="w-[140px] hidden xl:block"></div>
         <Resume />
