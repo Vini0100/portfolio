@@ -7,7 +7,7 @@ import { SocialItem } from "../SocialItem";
 
 export const HeroSection = () => {
   return (
-    <section className="layoutCustom flex gap-12 flexcol lg:flex-row lg:justify-center flex-wrap items-center defaultCenter border border-red-600">
+    <section className="layoutCustom flex gap-12 flex-col lg:flex-row lg:justify-center flex-wrap items-center defaultCenter border border-red-600">
       <Image
         src="photos/developer.svg"
         alt="Developer"
@@ -24,7 +24,7 @@ export const HeroSection = () => {
       />
       <div className="flex flex-col gap-8 lg:order-first">
         <div className="flex flex-col gap-8 lg:w-[42rem]">
-          <h1 className="font-normal font-soraCost text-3xl">
+          <h1 className="font-normal font-soraCost defaultTitle">
             Olá eu sou Vinícius Andrade Gonzato. Desenvolvedor Front-End.
           </h1>
           <p className="text-zinc-500 tracking-wide font-normal font-soraCost">

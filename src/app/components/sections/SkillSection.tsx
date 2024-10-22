@@ -1,15 +1,15 @@
 "use client";
 import React, { useState } from "react";
 import { Skill } from "../skill/Skill";
-import { item } from "@/types";
+import { itemSkill } from "@/types";
 import { items } from "../skill/SkillItems";
 
 export const SkillSection = () => {
-  const [click, setClick] = useState<item | null>(null);
+  const [click, setClick] = useState<itemSkill | null>(null);
 
   return (
     <section className="layoutCustom flex flex-col gap-5 items-center defaultCenter border border-purple-600">
-      <h2 className="py-5 font-soraCost font-normal text-5xl">
+      <h2 className="py-5 font-soraCost font-normal defaultTitle">
         Minhas <span className="font-extrabold">Skills</span>
       </h2>
       <ul className="flex md:flex-row flex-wrap justify-center md:justify-center gap-5 md:gap-16 border border-red-500">

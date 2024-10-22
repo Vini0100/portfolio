@@ -1,4 +1,4 @@
-import { item } from "@/types";
+import { itemSkill } from "@/types";
 import { FaAws, FaCss3, FaHtml5, FaJava, FaReact } from "react-icons/fa";
 import {
   SiJavascript,
@@ -11,7 +11,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 
-export const items: item[] = [
+export const items: itemSkill[] = [
   { name: "React.js", icon: <FaReact size={56} />, about: "I know so much" },
   { name: "Next.js", icon: <SiNextdotjs size={56} />, about: "I know so much" },
   {

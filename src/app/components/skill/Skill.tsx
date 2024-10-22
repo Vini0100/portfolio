@@ -1,8 +1,8 @@
-import { item } from "@/types";
+import { itemSkill } from "@/types";
 
 type Props = {
-  item: item;
-  setClick: (item: item) => void;
+  item: itemSkill;
+  setClick: (item: itemSkill) => void;
 };
 
 export const Skill = ({ item: skillItem, setClick }: Props) => {
