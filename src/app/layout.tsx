@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="md:w-4/5 m-auto">
+      <body>
         <Header />
         <main>{children}</main>
       </body>

@@ -12,6 +12,10 @@
   @apply text-xl font-bold font-soraCost;
 }
 
+.defaultCenter {
+  @apply md:w-4/5 m-auto;
+}
+
 @keyframes slideDown {
   0% {
     transform: translateY(-20px);

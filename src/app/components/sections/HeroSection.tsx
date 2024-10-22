@@ -7,7 +7,7 @@ import { SocialItem } from "../SocialItem";
 
 export const HeroSection = () => {
   return (
-    <section className="layoutCustom flex gap-12 flex-col lg:flex-row lg:justify-center flex-wrap items-center border border-red-600">
+    <section className="layoutCustom flex gap-12 flexcol lg:flex-row lg:justify-center flex-wrap items-center defaultCenter border border-red-600">
       <Image
         src="photos/developer.svg"
         alt="Developer"

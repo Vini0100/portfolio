@@ -8,8 +8,8 @@ export const SkillSection = () => {
   const [click, setClick] = useState<item | null>(null);
 
   return (
-    <section className="layoutCustom flex flex-col gap-5 items-center border border-purple-600">
-      <h2 className="py-5 font-soraCost font-normal text-3xl">
+    <section className="layoutCustom flex flex-col gap-5 items-center defaultCenter border border-purple-600">
+      <h2 className="py-5 font-soraCost font-normal text-5xl">
         Minhas <span className="font-extrabold">Skills</span>
       </h2>
       <ul className="flex md:flex-row flex-wrap justify-center md:justify-center gap-5 md:gap-16 border border-red-500">
