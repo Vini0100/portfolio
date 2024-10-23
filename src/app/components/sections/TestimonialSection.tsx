@@ -1,15 +1,17 @@
 import React from "react";
 import { ExperienceItem } from "../experience/ExperienceItem";
 import { ExperienceItems } from "../experience/SkillItems";
+import { TitleDefault } from "../global/TitleDefault";
+import { LayoutBlack } from "../global/LayoutBlack";
 
 export const TestimonialSection = () => {
   return (
-    <div className="bg-black">
-      <section className="defaultCenter layoutCustom flex flex-col gap-5">
-        <h2 className="text-white defaultTitle py-5 font-extrabold font-soraCost text-center">
-          <span className="font-normal">Minha</span> Experiência
-        </h2>
-        <div className="flex flex-col gap-8">
+    <LayoutBlack>
+      <section className="defaultCenter layoutCustom flex flex-col items-center gap-5">
+        <TitleDefault color="text-white">
+          Minha <span className="font-extrabold">Experiência</span>
+        </TitleDefault>
+        <ul className="flex flex-col gap-8">
           {ExperienceItems.map((item) => (
             <ExperienceItem
               key={item.name}
@@ -17,10 +19,11 @@ export const TestimonialSection = () => {
               icon={item.icon}
               about={item.about}
               time={item.time}
+              enterprise={item.enterprise}
             />
           ))}
-        </div>
+        </ul>
       </section>
-    </div>
+    </LayoutBlack>
   );
 };

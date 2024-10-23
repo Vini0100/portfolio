@@ -3,7 +3,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { SiCredly } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
-import { SocialItem } from "../SocialItem";
+import { SocialItem } from "../global/SocialItem";
 
 export const HeroSection = () => {
   return (

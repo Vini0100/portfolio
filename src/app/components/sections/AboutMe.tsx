@@ -1,21 +1,22 @@
 import Image from "next/image";
 import React from "react";
+import { TitleDefault } from "../global/TitleDefault";
 
 export const AboutMe = () => {
   return (
-    <section className="layoutCustom defaultCenter flex flex-col md:flex-row gap-20 items-center md:items-start">
+    <section className="layoutCustom defaultCenter flex flex-col xl:flex-row gap-5 xl:gap-20 items-center xl:items-start">
       <Image
         src="photos/aboutMe.svg"
         alt="Developer"
         width={343}
         height={374}
-        className="md:w-[32.828rem] md:h-[35.75rem]"
+        className="w-full md:w-[32.828rem] md:h-[35.75rem]"
       />
-      <div className="font-soraCost flex flex-col gap-5">
-        <h2 className="font-normal defaultTitle py-5">
+      <div className="flex flex-col gap-5">
+        <TitleDefault>
           Sobre <span className="font-extrabold">mim</span>
-        </h2>
-        <p className="font-normal text-base text-zinc-500">
+        </TitleDefault>
+        <p className="font-normal text-base text-zinc-500 font-soraCost">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, veniam
           porro autem voluptatum aliquam soluta ducimus molestiae et aut
           veritatis magnam consectetur unde numquam at asperiores optio quos

@@ -7,6 +7,7 @@ export const ExperienceItems: itemExperience[] = [
     about:
       "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
     time: "Maio 2024 - Outubro 2024",
+    enterprise: "Compass UOL",
   },
   {
     name: "Suporte Técnico",
@@ -14,5 +15,6 @@ export const ExperienceItems: itemExperience[] = [
     about:
       "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
     time: "Agosto 2022 - Abril 2024",
+    enterprise: "Digifred",
   },
 ];

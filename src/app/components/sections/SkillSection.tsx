@@ -3,15 +3,16 @@ import React, { useState } from "react";
 import { Skill } from "../skill/Skill";
 import { itemSkill } from "@/types";
 import { items } from "../skill/SkillItems";
+import { TitleDefault } from "../global/TitleDefault";
 
 export const SkillSection = () => {
   const [click, setClick] = useState<itemSkill | null>(null);
 
   return (
     <section className="layoutCustom flex flex-col gap-5 items-center defaultCenter border border-purple-600">
-      <h2 className="py-5 font-soraCost font-normal defaultTitle">
+      <TitleDefault>
         Minhas <span className="font-extrabold">Skills</span>
-      </h2>
+      </TitleDefault>
       <ul className="flex md:flex-row flex-wrap justify-center md:justify-center gap-5 md:gap-16 border border-red-500">
         {items.map((item) => (
           <Skill key={item.name} item={item} setClick={() => setClick(item)} />
