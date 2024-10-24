@@ -1,13 +1,10 @@
 import React from "react";
-import { RiInstagramFill } from "react-icons/ri";
-import { SiCredly } from "react-icons/si";
-import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
-import { SocialItem } from "../global/SocialItem";
+import { SocialList } from "../global/SocialList";
 
 export const HeroSection = () => {
   return (
-    <section className="layoutCustom flex gap-12 flex-col lg:flex-row lg:justify-center flex-wrap items-center defaultCenter border border-red-600">
+    <section className="layoutCustom flex gap-12 flex-col lg:flex-row lg:justify-center flex-wrap items-center defaultCenter">
       <Image
         src="photos/developer.svg"
         alt="Developer"
@@ -35,17 +32,7 @@ export const HeroSection = () => {
           </p>
         </div>
         <div>
-          <ul className="flex gap-6">
-            <SocialItem>
-              <FaLinkedin size={20} />
-            </SocialItem>
-            <SocialItem>
-              <SiCredly size={20} />
-            </SocialItem>
-            <SocialItem>
-              <RiInstagramFill size={20} />
-            </SocialItem>
-          </ul>
+          <SocialList />
         </div>
       </div>
     </section>

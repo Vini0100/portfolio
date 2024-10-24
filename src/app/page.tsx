@@ -1,4 +1,5 @@
 import { AboutMe } from "./components/sections/AboutMe";
+import { Contact } from "./components/sections/Contact";
 import { HeroSection } from "./components/sections/HeroSection";
 import { MyProjects } from "./components/sections/MyProjects";
 import { SkillSection } from "./components/sections/SkillSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <TestimonialSection />
       <AboutMe />
       <MyProjects />
+      <Contact />
     </div>
   );
 }

@@ -20,6 +20,10 @@
   @apply text-3xl md:text-5xl;
 }
 
+.inputContact {
+  @apply py-5 px-6 border-2 border-black rounded;
+}
+
 @keyframes slideDown {
   0% {
     transform: translateY(-20px);

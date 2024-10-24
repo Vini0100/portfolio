@@ -9,11 +9,11 @@ export const SkillSection = () => {
   const [click, setClick] = useState<itemSkill | null>(null);
 
   return (
-    <section className="layoutCustom flex flex-col gap-5 items-center defaultCenter border border-purple-600">
+    <section className="layoutCustom flex flex-col gap-5 items-center defaultCenter">
       <TitleDefault>
         Minhas <span className="font-extrabold">Skills</span>
       </TitleDefault>
-      <ul className="flex md:flex-row flex-wrap justify-center md:justify-center gap-5 md:gap-16 border border-red-500">
+      <ul className="flex md:flex-row flex-wrap justify-center md:justify-center gap-5 md:gap-16">
         {items.map((item) => (
           <Skill key={item.name} item={item} setClick={() => setClick(item)} />
         ))}
